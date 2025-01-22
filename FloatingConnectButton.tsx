@@ -75,7 +75,7 @@ export const FloatingConnectButton: React.FC<FloatingConnectButtonProps> = () =>
             });
             
           if (sendButton) sendButton.click();
-        }, 500);
+        }, 2000);
       }, 2000);
     });
 
