@@ -51,9 +51,7 @@ export const FloatingConnectButton: React.FC<
   );
 
   const handleMouseUp = useCallback((): void => {
-    setTimeout(() => {
-      setIsDragging(false);
-    }, 50);
+    setIsDragging(false);
   }, []);
 
   const connectWithAll = useCallback(
